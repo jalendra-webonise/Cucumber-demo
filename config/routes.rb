@@ -1,13 +1,18 @@
 Lesson::Application.routes.draw do
+  #resources :workshops
+
+
   get "home/index"
 
   get "home/welcome"
-  devise_for :users
   devise_for :admin
+  devise_for :users
 
   #match "/admin" => "admin/sign_in"
 
-
+  namespace :admin do
+    resources :workshops
+  end
 
 
   # The priority is based upon order of creation:

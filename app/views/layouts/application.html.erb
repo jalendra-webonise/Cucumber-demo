@@ -65,24 +65,11 @@
       <%= bootstrap_flash %>
       <%= yield %>
     </div>
-    <!--<div class="span3">-->
-      <!--<div class="well sidebar-nav">-->
-        <!--&lt;!&ndash;<h3>Sidebar</h3>&ndash;&gt;-->
-        <!--<ul class="nav nav-list">-->
-          <!--&lt;!&ndash;<li class="nav-header">Sidebar</li>&ndash;&gt;-->
-          <!--<% unless current_user || current_admin %>-->
-              <!--<li><%= link_to "Register", new_user_registration_path  %></li>-->
-              <!--<li><%= link_to "Sign In", new_user_session_path  %></li>-->
-              <!--<li><%= link_to "AdminSign In", new_admin_session_path  %></li>-->
-          <!--<% else %>-->
-              <!--<li><%= link_to "USERSign Out", destroy_user_session_path,method: :delete  %></li>-->
-              <!--<li><%= link_to "ADminSign Out", destroy_admin_session_path,method: :delete  %></li>-->
-          <!--<% end %>-->
-          <!--&lt;!&ndash;<li><%= link_to "Link3", "/path3"  %></li>&ndash;&gt;-->
-        <!--</ul>-->
-      <!--</div>&lt;!&ndash;/.well &ndash;&gt;-->
-    <!--</div>&lt;!&ndash;/span&ndash;&gt;-->
-    <%= render :partial => "shared/user_links" %>
+    <%if current_admin %>
+        <%= render :partial => "shared/admin_links" %>
+    <%else%>
+        <%= render :partial => "shared/user_links" %>
+    <%end%>
   </div><!--/row-->
 
   <footer>
