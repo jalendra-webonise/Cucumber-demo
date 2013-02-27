@@ -3,6 +3,7 @@ class Admin::MiniLessonsController < ApplicationController
   before_filter :get_mini_lesson, except: [:new, :index, :create]
   def new
     @mini_lesson = @workshop.mini_lessons.new()
+    @mini_lesson.quizzes.build
   end
 
   def create

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  query: MyText
+  mini_lesson_id: MyString
+  integer: MyString
+
+two:
+  query: MyText
+  mini_lesson_id: MyString
+  integer: MyString

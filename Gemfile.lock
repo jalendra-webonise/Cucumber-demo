@@ -73,6 +73,7 @@ GEM
     mime-types (1.21)
     multi_json (1.6.1)
     mysql2 (0.3.11)
+    nested_form (0.3.1)
     orm_adapter (0.4.0)
     paperclip (3.4.0)
       activemodel (>= 3.0.0)
@@ -146,6 +147,7 @@ DEPENDENCIES
   devise
   jquery-rails
   mysql2
+  nested_form
   paperclip
   permalink_fu
   rails (= 3.2.12)

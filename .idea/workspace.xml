@@ -22,19 +22,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="workshops_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/admin/workshops_controller.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/mini_lessons/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="52" selection-start="2090" selection-end="2090" vertical-scroll-proportion="0.0">
+            <state line="37" column="32" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.7794944">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/mini_lessons/_form.html.erb">
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="109" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
+            <state line="15" column="30" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -43,16 +43,25 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/mini_lessons/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="79" selection-start="399" selection-end="399" vertical-scroll-proportion="-9.375">
+            <state line="2" column="10" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="447" selection-end="447" vertical-scroll-proportion="0.3755523">
+            <state line="17" column="119" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20130227123228_create_quizzes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130227123228_create_quizzes.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="52" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,7 +70,16 @@
       <file leaf-file-name="mini_lesson.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/mini_lesson.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="53" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+            <state line="5" column="69" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/quiz.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="46" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +88,7 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/workshops/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="56" selection-start="52" selection-end="52" vertical-scroll-proportion="-3.125">
+            <state line="0" column="6" selection-start="3" selection-end="3" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -79,16 +97,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="79" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attachment_uploader.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/attachment_uploader.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="126" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0">
+            <state line="28" column="88" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,16 +106,7 @@
       <file leaf-file-name="mini_lessons_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/admin/mini_lessons_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="47" selection-start="364" selection-end="373" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130227101910_create_mini_lessons.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130227101910_create_mini_lessons.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="26" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+            <state line="33" column="85" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,22 +122,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/admin/workshops/index.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/app/views/admin/workshops/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/admin/workshops_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/workshop.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/mini_lessons/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/mini_lessons/edit.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130227101910_create_mini_lessons.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/admin/mini_lessons_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/admin/mini_lessons/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/workshops/show.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/mini_lesson.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/mini_lessons/show.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/db/migrate/20130227123228_create_quizzes.rb" />
+        <option value="$PROJECT_DIR$/app/models/quiz.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/admin/mini_lessons_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/views/admin/mini_lessons/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/mini_lesson.rb" />
       </list>
     </option>
   </component>
@@ -319,6 +319,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="uploaders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lesson" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -659,27 +677,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/admin/workshops/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="46" selection-start="504" selection-end="504" vertical-scroll-proportion="-11.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/workshop.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="109" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/mini_lessons/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0">
@@ -708,23 +705,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/mini_lessons_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="364" selection-end="373" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/workshops/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="48" selection-start="48" selection-end="50" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="79" selection-start="542" selection-end="542" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -736,37 +719,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/mini_lesson.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+        <state line="17" column="119" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/mini_lessons/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130227123228_create_quizzes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="109" selection-start="778" selection-end="778" vertical-scroll-proportion="0.0">
+        <state line="9" column="52" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/workshops/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/quiz.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="56" selection-start="52" selection-end="52" vertical-scroll-proportion="-3.125">
+        <state line="4" column="46" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/mini_lessons/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="79" selection-start="399" selection-end="399" vertical-scroll-proportion="-9.375">
+        <state line="2" column="10" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/mini_lessons_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="447" selection-end="447" vertical-scroll-proportion="0.3755523">
+        <state line="33" column="85" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/workshops/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="3" selection-end="3" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="88" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="682" selection-end="682" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/mini_lesson.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="69" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/mini_lessons/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.7794944">
           <folding />
         </state>
       </provider>

@@ -1,4 +1,4 @@
-<%= form_for(@mini_lesson , :url => ["new","create"].include?(params[:action]) ? admin_workshop_mini_lessons_path(@workshop) : admin_workshop_mini_lesson_path(@workshop,@mini_lesson) ) do |f| %>
+<%= nested_form_for(@mini_lesson , :url => ["new","create"].include?(params[:action]) ? admin_workshop_mini_lessons_path(@workshop) : admin_workshop_mini_lesson_path(@workshop,@mini_lesson) ) do |f| %>
     <% if @mini_lesson.errors.any? %>
         <div id="error_explanation">
           <h2><%= pluralize(@mini_lesson.errors.count, "error") %> prohibited this Mini-lesson from being saved:</h2>
@@ -28,8 +28,14 @@
       <%= f.label :attachment, "Attach File" %><br />
       <%= f.file_field :attachment %>
     </div>
-
-
+    <%= f.fields_for :quizzes do |q| %>
+        <div class="field">
+          <%= q.label :query %><br />
+          <%= q.text_field :query %>
+        </div>
+        <%= q.link_to_remove "remove query"%>
+    <% end %>
+    <%= f.link_to_add "Add Quizz", :quizzes %>
     <div class="actions">
       <%= f.submit %>
     </div>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130227101910) do
+ActiveRecord::Schema.define(:version => 20130227123228) do
 
   create_table "admin_posts", :force => true do |t|
     t.string   "name"
@@ -53,6 +53,13 @@ ActiveRecord::Schema.define(:version => 20130227101910) do
 
   add_index "people", ["email"], :name => "index_people_on_email", :unique => true
   add_index "people", ["reset_password_token"], :name => "index_people_on_reset_password_token", :unique => true
+
+  create_table "quizzes", :force => true do |t|
+    t.text     "query"
+    t.integer  "mini_lesson_id"
+    t.datetime "created_at",     :null => false
+    t.datetime "updated_at",     :null => false
+  end
 
   create_table "workshops", :force => true do |t|
     t.string   "name"
