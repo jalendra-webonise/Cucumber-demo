@@ -32,7 +32,10 @@ gem "permalink_fu"
 gem 'tinymce-rails'
 gem "cancan"
 gem "paperclip"
+#gem 'faker'
 #gem 'thin'
+#gem 'state_machine'
+gem "carrierwave"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

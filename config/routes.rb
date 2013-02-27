@@ -11,7 +11,9 @@ Lesson::Application.routes.draw do
   #match "/admin" => "admin/sign_in"
 
   namespace :admin do
-    resources :workshops
+    resources :workshops  do
+      resources :mini_lessons
+    end
   end
 
 

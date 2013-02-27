@@ -24,6 +24,7 @@ class Admin::WorkshopsController < ApplicationController
   # GET /workshops/new
   # GET /workshops/new.json
   def new
+    @category = Category.all
     @workshop = Workshop.new
 
     respond_to do |format|
@@ -34,6 +35,7 @@ class Admin::WorkshopsController < ApplicationController
 
   # GET /workshops/1/edit
   def edit
+    @category = Category.all
     @workshop = Workshop.find(params[:id])
   end
 
@@ -76,7 +78,7 @@ class Admin::WorkshopsController < ApplicationController
     @workshop.destroy
 
     respond_to do |format|
-      format.html { redirect_to workshops_url }
+      format.html { redirect_to admin_workshops_path }
       format.json { head :no_content }
     end
   end

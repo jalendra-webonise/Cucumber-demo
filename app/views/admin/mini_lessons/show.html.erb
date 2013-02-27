@@ -1,0 +1,15 @@
+<p>
+  <b>Name:</b>
+  <%= @mini_lesson.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @mini_lesson.description %>
+</p>
+
+
+<%= link_to "View Attachment", @mini_lesson.attachment.url, target: "_blank" %>
+<!--<%#= sen "download", @mini_lesson.attachment.url %>-->
+<%= link_to 'Edit', edit_admin_workshop_mini_lesson_path(@workshop,@mini_lesson) %> |
+<%= link_to 'Back', admin_workshop_path(@workshop) %>

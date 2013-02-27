@@ -1,5 +1,3 @@
-<p id="notice"><%= notice %></p>
-
 <p>
   <b>Name:</b>
   <%= @workshop.name %>
@@ -15,6 +13,13 @@
   <%= @workshop.description %>
 </p>
 
+<ul>
+  <% @workshop.mini_lessons.order("nav_order ASC").each do |ml| %>
+      <li><%= link_to ml.title,  admin_workshop_mini_lesson_path(@workshop,ml) %></li>
+  <% end %>
 
-<%= link_to 'Edit', edit_workshop_path(@workshop) %> |
-<%= link_to 'Back', workshops_path %>
+</ul>
+
+<%= link_to 'Add Mini-lesson', new_admin_workshop_mini_lesson_path(@workshop) %>
+<%= link_to 'Edit', edit_admin_workshop_path(@workshop) %> |
+<%= link_to 'Back', admin_workshops_path %>

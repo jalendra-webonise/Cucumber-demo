@@ -1,0 +1,2 @@
+module Admin::MiniLessonsHelper
+end

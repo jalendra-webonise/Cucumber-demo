@@ -1,4 +1,4 @@
-<%= form_for(@workshop , :url => {:controller => "admin/workshops"}) do |f| %>
+<%= form_for(@workshop , :url => params[:action]== "new" ? admin_workshops_path : admin_workshop_path(@workshop) ) do |f| %>
   <% if @workshop.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@workshop.errors.count, "error") %> prohibited this workshop from being saved:</h2>
@@ -11,13 +11,19 @@
     </div>
   <% end %>
 
+
+    <div class="field">
+      <%= f.label :category %><br />
+      <%= select_tag :category, options_for_select(@category.collect{|i| [i.name,i.id]}) %>
+    </div>
+
   <div class="field">
     <%= f.label :name %><br />
     <%= f.text_field :name %>
   </div>
   <div class="field">
     <%= f.label :nav_setting %><br />
-    <%= f.text_field :nav_setting %>
+    <%= f.select :nav_setting, Workshop::NAV_SETTING.map{|v,i| [v.to_s.gsub(/_/," ").capitalize,i]} %>
   </div>
   <div class="field">
     <%= f.label :description %><br />

@@ -1,0 +1,36 @@
+<%= form_for(@mini_lesson , :url => ["new","create"].include?(params[:action]) ? admin_workshop_mini_lessons_path(@workshop) : admin_workshop_mini_lesson_path(@workshop,@mini_lesson) ) do |f| %>
+    <% if @mini_lesson.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@mini_lesson.errors.count, "error") %> prohibited this Mini-lesson from being saved:</h2>
+
+          <ul>
+            <% @mini_lesson.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+
+    <div class="field">
+      <%= f.label :title %><br />
+      <%= f.text_field :title %>
+    </div>
+    <div class="field">
+      <%= f.label :description %><br />
+      <%= f.text_area :description %>
+    </div>
+    <div class="field">
+      <%= f.label :nav_order %><br />
+      <%= f.text_field :nav_order %>
+    </div>
+    <div class="field">
+      <%= f.label :attachment, "Attach File" %><br />
+      <%= f.file_field :attachment %>
+    </div>
+
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+<% end %>
